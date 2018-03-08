@@ -1,0 +1,32 @@
+.logo__line {
+    height: 3px;
+    width: 50%;
+    background: $white;
+}
+
+.underline {
+    height: 5px;
+    width: 50px;
+    background: $light-purpink;
+    margin: auto 0 1.62em;
+}
+
+.button {
+    font-weight: $bold;
+    background: $button-gradient;
+    padding: 0.62em 1em;
+    border-radius: 3px;
+//    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.33);
+    transition: all 0.3s;
+//    box-shadow: 0px 0px 10px #BB6BD9;
+    &:hover {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25), 0px 0px 10px #BB6BD9;
+    }
+}
+
+.footer__divider {
+    height: 5px;
+    width: 100%;
+    background: $purpink;
+}

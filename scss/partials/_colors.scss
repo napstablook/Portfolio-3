@@ -1,0 +1,60 @@
+body {
+    background: $white;
+}
+
+h2 {
+    color: $neutral-blue;
+}
+
+h3 {
+    color: $base-color;
+}
+
+.landing {
+    position: relative;
+}
+
+.landing__background {
+    background: url(../images/daniel-leone-185834-unsplash.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.landing__gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(108, 158, 248, 0.5) 0%, rgba(209, 108, 248, 0.5) 100%);
+    z-index: 2;
+}
+
+.landing__content {
+    color: $white;
+    position: relative;
+    z-index: 3;
+}
+
+.down-arrow {
+    color: $white;
+}
+
+.skill-icon {
+    text-shadow: 3px 3px 1px #6C9EF8, 5px 4px #D16CF8;
+}
+
+.project p {
+    color: $gray;
+}
+
+.footer {
+    color: $dark-gray;
+}
+
+.social-icon {
+    color: $gray;
+}

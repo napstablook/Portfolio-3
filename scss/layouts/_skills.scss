@@ -1,0 +1,15 @@
+.skill-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7.5em, 1fr));
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-icon {
+    font-size: 5em;
+    flex-grow: 1;
+}
+
+.skills p {
+    text-align: center;
+}

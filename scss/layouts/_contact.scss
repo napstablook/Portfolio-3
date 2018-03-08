@@ -1,0 +1,22 @@
+.contact {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+//    justify-content: space-between;
+}
+
+.contact p {
+    margin: 1em 0 0;
+}
+
+.contact a {
+    display: block;
+    align-self: center;
+    margin: 2.62em 0 0;
+//    margin: 0 0 17.5%;
+}
+
+.mail-icon {
+    display: inline-block;
+    margin: 0 0.62em -0.033em;
+}
